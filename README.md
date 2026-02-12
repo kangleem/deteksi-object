@@ -14,7 +14,7 @@ cd my_yolo
 
 # Buat virtual environment
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate.fish //jika tidak menggunakan fish, hapus .fish
 
 # Install dependensi
 pip install ultralytics flask opencv-python requests
